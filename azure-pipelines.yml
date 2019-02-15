@@ -11,7 +11,7 @@ pool:
 
 variables:
   buildConfiguration: 'Release'
-  imageName: 'gccHello:$(Build.BuildId)'
+  imageName: 'gcchello:$(Build.BuildId)'
   # define two more variables dockerId and dockerPassword in the build pipeline in UI
 
 steps:
